@@ -22,9 +22,9 @@ repository               : "doyoundo/doyoundo.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Youndo Do"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Robotics Researcher"
   location         : "Atlanta, Georgia"
   employer         : "Georgia Institute of Technology"
   uri              : "https://doyoundo.github.io"
