@@ -26,8 +26,8 @@ Latest Posts
 - A
 - B
 - C
-12 Sept. 2024
-[GitHub Pages](https://pages.github.com/)
+12 Sept. 2024 </br>
+[GitHub Pages](https://pages.github.com/) </br>
 
 
 
