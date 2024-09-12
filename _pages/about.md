@@ -23,9 +23,6 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 
 Latest Posts
 ======
-- A
-- B
-- C
 12 Sept. 2024 </br>
 [GitHub Pages](https://pages.github.com/) </br>
 
