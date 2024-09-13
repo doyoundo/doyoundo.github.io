@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Youndo Do"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him" # example: "she/her"  
   bio              : "Robotics Researcher"
   location         : "Atlanta, Georgia"
   employer         : "Georgia Institute of Technology"
