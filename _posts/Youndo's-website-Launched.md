@@ -1,7 +1,7 @@
 ---
 title: 'Youndo's website Launched!'
 date: 2024-09-10
-permalink: /posts/Youndo's-website-Launched/
+permalink: /posts/2024/09/Youndo's-website-Launched/
 tags:
   - initial post
   - personal news
