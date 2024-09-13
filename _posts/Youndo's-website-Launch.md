@@ -1,7 +1,7 @@
 ---
-title: 'Youndo's-website-Launched'
+title: 'Youndo's website Launched'
 date: 2024-09-11
-permalink: /posts/GTML-Seminar-Series-I/
+permalink: /posts/Youndo's-website-Launch/
 tags:
   - Seminar
   - Tech
