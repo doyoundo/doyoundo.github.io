@@ -1,7 +1,7 @@
 ---
 title: 'ML@GT Seminar Series I'
 date: 2024-09-11
-permalink: /posts/2012/08/blog-post-4/
+permalink: /posts/GTML-Seminar-Series-I/
 tags:
   - Seminar
   - Tech
