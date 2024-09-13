@@ -8,23 +8,7 @@ tags:
   - Machine Learning
 ---
 
-1970 Mao Zedong's picture has been manipulated (Mao's funeral)
-Book - Making people disappear
+I decided to launch my private website and share some great news on my blogs!
 
-Book - Risiung Sun
-
-with deep fake images, problems arise in image industry:
-"Conceptually, we may call the truth what we cannot change; metaphorically, it is the ground on which we stand and the sky that stretches above us" hannah arendt
-
-Manipiulation in film before digital time
-- self portrait as a drowned man
-- photo retouching
-- cropping
-
-AI is not a game changer. This has been ongoing long time ago.
-
-Digital Darkroom
-
-
-
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+Q. Why Website
+A: I think it is time for me to share my news to more public and let others know what I am doing. Past few years, I was self-driving, but also communicationg nad networking cnan push me further as a researcher.
