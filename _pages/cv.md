@@ -74,5 +74,5 @@ Service and leadership
 ======
 * June 2024-Present: Student Representative Executive Committee Member
   * Robotics and Remote Control Division, American Nuclear Society
-* 2024-Present: Research Projects Mentor
-  * Mentoring 5+ Researchers
+* 2024-Present: Research Project Mentor
+  * Mentoring 5+ Undergraduate/Master students across 3 different projects
