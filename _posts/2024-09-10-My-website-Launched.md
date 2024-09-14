@@ -1,6 +1,6 @@
 ---
 title: 'My website Launched'
-date: 2024-09-11
+date: 2024-09-10
 permalink: /posts/2024/09/My-website-Launched/
 tags:
   - Seminar
