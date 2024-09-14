@@ -7,6 +7,9 @@ tags:
   - Tech
   - Machine Learning
 ---
+Speaker: Walter Scheirer, University of Notre Dame
+
+Bio:
 
 1970 Mao Zedong's picture has been manipulated (Mao's funeral)
 Book - Making people disappear
@@ -25,6 +28,3 @@ AI is not a game changer. This has been ongoing long time ago.
 
 Digital Darkroom
 
-
-
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
