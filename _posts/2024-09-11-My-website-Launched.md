@@ -1,7 +1,7 @@
 ---
-title: 'My website Launch'
+title: 'My website Launched'
 date: 2024-09-11
-permalink: /posts/2024/09/My-website-Launch/
+permalink: /posts/2024/09/My-website-Launched/
 tags:
   - Seminar
   - Tech
