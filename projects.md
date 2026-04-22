@@ -36,7 +36,8 @@ A visual collection of my research implementations, software tools, and technica
       <div class="skill-icons">
         {% for skill in project.skills %}
           <div class="skill-badge">
-            <span>{{ skill }}</span>
+            <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+            <span>{{ skill.name }}</span>
           </div>
         {% endfor %}
       </div>
