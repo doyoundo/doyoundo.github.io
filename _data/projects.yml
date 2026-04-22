@@ -1,0 +1,98 @@
+- title: "Whole-Body Manipulation in Confined Space"
+  description: "Whole-body manipulation in confined spaces using reinforcement learning and sampling trajectories."
+  image: "/assets/img/confidential_under_dev.png"
+  status: "In Progress"
+  skills:
+    - "Isaac Sim"
+    - "ROS2"
+    - "Python"
+    - "Unitree"
+
+- title: "VLA-Guided Manipulation in Spatially Constrained Environment"
+  description: "Vision-Language-Augmented (VLA) manipulation for robots operating in spatially constrained environments."
+  image: "/assets/img/confidential_under_dev.png"
+  status: "In Progress"
+  skills:
+    - "Isaac Sim"
+    - "Humanoid"
+    - "Python"
+    - "PyTorch"
+
+- title: "Safety-Oriented Mobile Robot Teleoperation System for Nuclear Maintenance"
+  description: "A teleoperation system for mobile robots designed to enhance safety during nuclear maintenance tasks."
+  image: "/assets/img/confidential_under_dev.png"
+  status: "In Progress"
+  skills:
+    - "Unreal Engine 5"
+    - "Fusion360"
+    - "Turtlebot 4"
+    - "Hugging Face"
+
+- title: "Robot-assisted Online Monitoring, Online Maintenance, and Dynamic Risk Assessment for LWRs and Advanced Reactors"
+  description: "A robotic system for online monitoring, maintenance, and dynamic risk assessment in nuclear reactors."
+  image: "/assets/img/Onlinemonitoring.png"
+  status: "Jan. 2024 - Present"
+  skills:
+    - "Isaac Sim"
+    - "Python"
+    - "PyTorch"
+    - "Unitree"
+
+- title: "Robot Platform for Physics-Centric Multimodal Perception: Vision, Temperature, Gas, and Radiation"
+  description: "A robotic platform equipped with multimodal sensors for enhanced perception in nuclear environments."
+  video: "/assets/img/ICRA_Demo.mp4"
+  status: "2025 ICRA Demo"
+  skills:
+    - "ROS"
+    - "Python"
+    - "PyTorch"
+
+- title: "Nuclear Power Plant Digital Twin for Robot and AI Development"
+  description: "A digital twin of a nuclear power plant environment for developing and testing robotic and AI systems."
+  image: "/assets/img/ifannpp_project.png"
+  status: "Jan. 2024 - Dec. 2025"
+  skills:
+    - "Unreal Engine 5"
+    - "C++"
+    - "Python"
+    - "Unitree"
+
+- title: "RL Agent for Open World Game"
+  description: "Reinforcement learning agent trained in an open-world game environment for game balance and strategy exploration."
+  video: "/assets/img/HypeSquad.mp4"
+  status: "Mar. 2022 - July 2023"
+  skills:
+    - "Unreal Engine 4"
+    - "Google Cloud"
+    - "C++"
+    - "Python"
+
+- title: "Modular Reinforcement Learning Framework for Game AI"
+  description: "A modular RL framework designed to train game AI agents with customizable reward functions and various game environment settings."
+  image: "/assets/img/confidential_industry.png"
+  status: "Mar. 2022 - Dec. 2023"
+  skills:
+    - "Unreal Engine 4"
+    - "Unity"
+    - "C++"
+    - "C#"
+
+- title: "AI-Assisted Procedural City Generation System"
+  description: "An AI-assisted system for procedural generation of city environments to enhance game world diversity and realism."
+  image: "/assets/img/ProceduralGenerator.png"
+  status: "Dec. 2020 - Feb. 2022"
+  skills:
+    - "Unreal Engine 4"
+    - "Unity"
+    - "C++"
+    - "C#"
+    - "Python"
+
+- title: "AI-Optimized Multi-Bone Inverse Kinematics System for Enhanced Character Movement"
+  description: "An AI-optimized inverse kinematics system for realistic multi-bone character movement in game environments."
+  image: "/assets/img/confidential_industry.png"
+  status: "June 2020 - Aug. 2021"
+  skills:
+    - "Unreal Engine 4"
+    - "C++"
+    - "Python"
