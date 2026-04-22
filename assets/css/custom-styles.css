@@ -1,0 +1,69 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.thumbnail-container {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.thumbnail-container img,
+.thumbnail-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #222;
+}
+
+.card-desc {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 8px 0 12px;
+}
+
+.card-links a {
+  font-size: 0.85rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.skill-icons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-badge {
+  background: #f2f2f2;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
