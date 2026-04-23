@@ -1,0 +1,43 @@
+<div class="container">
+  <main>
+    <h1 class="name-header">Blog</h1>
+    <p style="color: var(--text-muted); margin-bottom: 50px;">
+      A collection of research notes, tutorials, and academic reflections.
+    </p>
+
+    {% for post in site.posts %}
+    <article class="entry blog-post">
+      <div class="blog-entry-flex">
+
+        <div class="blog-media-container">
+          {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+          {% endif %}
+        </div>
+
+        <div class="blog-text-container">
+          <span class="blog-date">
+            {{ post.date | date: "%B %d, %Y" }}
+          </span>
+
+          <a href="{{ post.url | relative_url }}" class="entry-title">
+            {{ post.title }}
+          </a>
+
+          <p class="blog-snippet">
+            {{ post.excerpt | strip_html | truncate: 150 }}
+          </p>
+
+          <div class="card-links">
+            <a href="{{ post.url | relative_url }}">
+              Read More →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </article>
+    {% endfor %}
+
+  </main>
+</div>

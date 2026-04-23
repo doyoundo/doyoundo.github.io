@@ -67,3 +67,214 @@
   border-radius: 6px;
   font-size: 0.75rem;
 }
+
+/* =========================
+   Blog Page Styles
+========================= */
+
+/* Layout for each post */
+.blog-entry-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Image container */
+.blog-media-container {
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.blog-media-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Text section */
+.blog-text-container {
+    flex: 1;
+}
+
+/* Spacing between posts */
+.blog-post {
+    margin-bottom: 40px;
+}
+
+/* Title */
+.entry-title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 4px 0 8px 0;
+}
+
+/* Date */
+.blog-date {
+    font-size: 0.8rem;
+    color: var(--text-muted, #777);
+    letter-spacing: 0.05em;
+}
+
+/* Snippet */
+.blog-snippet {
+    font-size: 0.95rem;
+    color: var(--text-muted, #777);
+}
+
+/* Read more link */
+.card-links {
+    margin-top: 8px;
+}
+
+.card-links a {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* =========================
+   Mobile Fix
+========================= */
+@media (max-width: 768px) {
+    .blog-entry-flex {
+        flex-direction: column;
+    }
+
+    .blog-media-container {
+        width: 100%;
+    }
+}
+
+/* =========================
+   Publications Layout
+========================= */
+
+/* Main layout (image + text) */
+.pub-entry-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Thumbnail (image/video) */
+.pub-thumbnail {
+    width: 180px;
+    flex-shrink: 0;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.pub-thumbnail img,
+.pub-thumbnail video {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;          /* key property */
+    display: block;
+}
+
+/* Text content */
+.pub-content {
+    flex: 1;
+}
+
+/* Spacing between entries */
+.entry {
+    margin-bottom: 40px;
+}
+
+/* Title */
+.pub-content .entry-title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Authors + venue */
+.entry-meta {
+    font-size: 0.95rem;
+    color: var(--text-muted, #777);
+    line-height: 1.5;
+}
+
+/* Buttons (Paper, BibTeX, etc.) */
+.pub-btn {
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border: 1px solid var(--border-color, #ddd);
+    border-radius: 6px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+}
+
+.pub-btn:hover {
+    color: var(--link-color, #2c7be5);
+    border-color: var(--link-color, #2c7be5);
+}
+
+/* =========================
+   BibTeX Box
+========================= */
+
+.bibtex-wrapper {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid var(--border-color, #ddd);
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.bibtex-wrapper.active {
+    display: block;
+}
+
+.bibtex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--border-color, #ddd);
+    color: var(--text-muted, #777);
+}
+
+/* Copy button */
+.copy-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.75rem;
+    color: var(--link-color, #2c7be5);
+}
+
+/* BibTeX text */
+.bibtex-body {
+    padding: 10px;
+    font-size: 0.8rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+/* =========================
+   Responsive Fix
+========================= */
+
+@media (max-width: 768px) {
+    .pub-entry-flex {
+        flex-direction: column;
+    }
+
+    .pub-thumbnail {
+        width: 100%;
+    }
+}

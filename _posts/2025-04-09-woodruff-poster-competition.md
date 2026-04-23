@@ -2,6 +2,7 @@
 layout: post
 title: Truly Inspired by the works aroudn our school
 subtitle: Woodruff Poster Competition
+image: /assets/img/poster_competition.jpg
 tags: [Poster Competition, Event]
 comments: true
 mathjax: true

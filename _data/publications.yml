@@ -1,0 +1,87 @@
+- year: 2026
+  papers:
+    - title: "iFANnpp: Nuclear power plant digital twin for robots and autonomous intelligence"
+      authors: "Youndo Do, Marc Zebrowitz, Jackson Stahl, Fan Zhang"
+      venue: "Annals of Nuclear Energy"
+      image: /assets/img/iFANnpp_Overview.png
+      link: https://doi.org/10.1016/j.anucene.2025.111993
+      bibtex: |
+        @article{do2026ifannpp,
+          title={iFANnpp: Nuclear power plant digital twin for robots and autonomous intelligence},
+          author={Do, Youndo and Zebrowitz, Marc and Stahl, Jackson and Zhang, Fan},
+          journal={Annals of Nuclear Energy},
+          volume={227},
+          pages={111993},
+          year={2026},
+          publisher={Elsevier}
+        }
+
+- year: 2025
+  papers:
+    - title: "Physics-Informed Radiation Multi-Source Localization with Robotic Platform"
+      authors: "Hojoon Son, Youndo Do, Marc Zebrowitz, Fan Zhang"
+      venue: "International Journal of Intelligent Robotics and Applications"
+      image: /assets/img/Physics-Informed_Overview.png
+      link: https://doi.org/10.1007/s41315-025-00461-3
+      bibtex: |
+        @article{son2025physics,
+          title={Physics-informed radiation multi-source localization with robotic platform},
+          author={Son, Hojoon and Do, Youndo and Zebrowitz, Marc and Zhang, Fan},
+          journal={International Journal of Intelligent Robotics and Applications},
+          pages={1--14},
+          year={2025},
+          publisher={Springer}
+        }
+
+    - title: "Grafted Composite Decision Tree: Adaptive Online Fault Diagnosis with Automated Robot Measurements"
+      authors: "Sungmin Kim, Youndo Do, Fan Zhang"
+      venue: "Sensors"
+      image: /assets/img/Sensors-Overview.png
+      link: https://doi.org/10.3390/s25216530
+      bibtex: |
+        @article{kim2025grafted,
+          title={Grafted Composite Decision Tree: Adaptive Online Fault Diagnosis with Automated Robot Measurements},
+          author={Kim, Sungmin and Do, Youndo and Zhang, Fan},
+          journal={Sensors},
+          volume={25},
+          number={21},
+          pages={6530},
+          year={2025},
+          publisher={MDPI}
+        }
+
+    - title: "Robot Teleoperation for Efficient Pipe Maintenance in Nuclear Facilities"
+      authors: "Youndo Do, Cheng-Yuan Li, Myeongjun Choi, Fan Zhang"
+      venue: "NPIC&HMIT 2025"
+      image: /assets/img/RobotTeleop_Overview.png
+
+    - title: "Bridging the Sim-to-Real Gap: A Small-Scale Nuclear Plant Testbed for Robotic Deployment"
+      authors: "Youndo Do, Winona Wiley, Myeongjun Choi, Fan Zhang"
+      venue: "ICRA Workshop 2025"
+      image: /assets/img/ICRA_Image.png
+
+    - title: "ROS Bridge for Unreal Engine for Nuclear Robotics Simulation"
+      authors: "Spencer Banks, Marc Zebrowitz, Youndo Do, Fan Zhang"
+      venue: "ICRA Workshop 2025"
+      image: /assets/img/ICRA_Image.png
+
+- year: 2024
+  papers:
+    - title: "Enhanced Virtual Training Platform for Training in Nuclear Power Plants"
+      authors: "Youndo Do, Cheng-Yuan Li, Aryan Chokshi, Fan Zhang"
+      venue: "International Symposium on Future I&C for Nuclear Power Plants"
+      image: /assets/img/VR-Training_Overview.png
+      note: "Best Paper Award"
+
+    - title: "Radiation Simulation and Visualization in Nuclear Power Plant Digital Twins"
+      authors: "Youndo Do, Kai Tan, Fan Zhang"
+      venue: "ANS Winter Conference and Expo"
+      video: assets/img/RadViz.mp4
+      link: https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/d/2240/files/2025/12/Final.pdf
+      bibtex: |
+        @inproceedings{do2024radiation,
+          title={Radiation Simulation and Visualization in Nuclear Power Plant Digital Twins},
+          author={Do, Youndo and Tan, Kai and Zhang, Fan},
+          booktitle={2024 ANS Winter Conference and Expo},
+          year={2024}
+        }
