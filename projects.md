@@ -23,28 +23,35 @@ A visual collection of my research implementations, software tools, and technica
     </div>
 
     <div class="card-content">
-      <a href="#" class="card-title">{{ project.title }}</a>
+
+      <div class="card-title">
+        {{ project.title }}
+      </div>
 
       <p class="card-desc">
         {{ project.description }}
       </p>
 
       <div class="card-links">
-        <a href="#">{{ project.status }}</a>
+        <span class="status">{{ project.status }}</span>
       </div>
 
       <div class="skill-icons">
         {% for skill in project.skills %}
           <div class="skill-badge">
-            <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+            {% if skill.icon contains "/" %}
+              <img src="{{ skill.icon }}" class="skill-icon">
+            {% else %}
+              <i class="devicon-{{ skill.icon }}-plain"></i>
+            {% endif %}
             <span>{{ skill.name }}</span>
           </div>
         {% endfor %}
       </div>
+
     </div>
 
   </div>
 
 {% endfor %}
-
 </div>
