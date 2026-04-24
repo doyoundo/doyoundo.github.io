@@ -54,30 +54,51 @@
   text-decoration: none;
 }
 
+.skill-icons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Each skill becomes a self-contained pill */
 .skill-badge {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 8px;
-  border-radius: 6px;
-  background: #f5f5f5;
-  font-size: 0.85rem;
+
+  background: #f2f2f2;
+  padding: 6px 10px;
+  border-radius: 10px;
+
+  font-size: 0.78rem;
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* ICON BASE SIZE CONTROL */
+/* subtle “card lift” variation */
+.skill-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* ICONS: allow natural visual weight differences */
 .skill-icon {
   width: 18px;
   height: 18px;
-  object-fit: contain;   /* critical for JPG/PNG */
-  display: inline-block;
+  object-fit: contain;
 }
 
-/* Font icons (Devicon / FontAwesome / Iconify) */
+/* font-based icons */
 .skill-badge i,
 .skill-badge iconify-icon {
   font-size: 18px;
-  width: 18px;
-  height: 18px;
+}
+
+/* optional: make important tools slightly more prominent */
+.skill-badge.featured {
+  background: #eaeaea;
+  font-weight: 500;
 }
 
 /* =========================
