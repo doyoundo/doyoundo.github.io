@@ -4,9 +4,9 @@
   status: "In Progress"
   skills:
     - name: "Isaac Sim"
-      icon: "nvidia"
+      icon: "simple-icons:nvidia"
     - name: "ROS2"
-      icon: "ros"
+      icon: "simple-icons:ros"
     - name: "Python"
       icon: "python"
     - name: "C++"
