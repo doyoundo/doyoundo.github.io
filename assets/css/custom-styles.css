@@ -54,18 +54,30 @@
   text-decoration: none;
 }
 
-.skill-icons {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
 .skill-badge {
-  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   padding: 4px 8px;
   border-radius: 6px;
-  font-size: 0.75rem;
+  background: #f5f5f5;
+  font-size: 0.85rem;
+}
+
+/* ICON BASE SIZE CONTROL */
+.skill-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;   /* critical for JPG/PNG */
+  display: inline-block;
+}
+
+/* Font icons (Devicon / FontAwesome / Iconify) */
+.skill-badge i,
+.skill-badge iconify-icon {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 /* =========================
