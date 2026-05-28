@@ -18,14 +18,14 @@ My research focuses on Reinforcement Learning, Interactive Learning, and General
 
     {% for news in latest_news %}
     <div class="list-group-item small">
-      <strong>{{ news.date }}</strong> {{ news.content }}
+      <strong>{{ news.date }}</strong> {{ news.content | markdownify | remove: '<p>' | remove: '</p>' }}
     </div>
     {% endfor %}
 
     <div id="older-news" style="display: none;">
       {% for news in older_news %}
       <div class="list-group-item small">
-        <strong>{{ news.date }}</strong> {{ news.content }}
+        <strong>{{ news.date }}</strong> {{ news.content | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
       {% endfor %}
     </div>
