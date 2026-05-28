@@ -33,22 +33,25 @@ My research focuses on Reinforcement Learning, Interactive Learning, and General
   </div>
 
 {% if older_news.size > 0 %}
-<button id="toggle-news" class="btn btn-outline-primary mt-3">Show More ▽</button>
+<button id="toggle-news" class="btn btn-outline-primary mt-3">Show More</button>
 {% endif %}
 
 </div>
 
 <script>
-  document.getElementById("toggle-news").addEventListener("click", function() {
-    var olderNews = document.getElementById("older-news");
-    if (olderNews.style.display === "none") {
-      olderNews.style.display = "block";
-      this.textContent = "Show Less △";
-    } else {
-      olderNews.style.display = "none";
-      this.textContent = "Show More ▽";
-    }
-  });
+  var toggleNews = document.getElementById("toggle-news");
+  if (toggleNews) {
+    toggleNews.addEventListener("click", function() {
+      var olderNews = document.getElementById("older-news");
+      if (olderNews.style.display === "none") {
+        olderNews.style.display = "block";
+        this.textContent = "Show Less";
+      } else {
+        olderNews.style.display = "none";
+        this.textContent = "Show More";
+      }
+    });
+  }
 </script>
 
 ---
