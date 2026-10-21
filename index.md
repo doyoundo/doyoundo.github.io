@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Youndo Do
+title: Youndo (Ryan) Do
 ---
 
 I am a PhD student in the [Intelligence for Advanced Nuclear Laboratory](https://sites.gatech.edu/ifanlab/) at [Georgia Institute of Technology](https://www.gatech.edu/). Before joining Georgia Tech, I worked as an AI Research Engineer at Netmarble and Vespa AI Research Group for 3 years.
